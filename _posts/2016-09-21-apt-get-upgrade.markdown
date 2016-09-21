@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Upgrade a linux system using apt-get!"
 date:   2016-09-21 16:33:00 +0200
 categories: linux bash
 ---
