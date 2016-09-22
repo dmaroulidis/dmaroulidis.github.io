@@ -13,6 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   list my current projects!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gp.dimitris.xyz" # the base hostname & protocol for your site
+timezone: Europe/Athens
 twitter_username: dmaroulidis
 github_username:  dmaroulidis
 
