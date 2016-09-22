@@ -1,11 +1,18 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Dimitris Maroulidis
 email: dimitris@dimitris.xyz
 description: > # this means to ignore newlines until "baseurl:"
@@ -14,8 +21,21 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gp.dimitris.xyz" # the base hostname & protocol for your site
 timezone: Europe/Athens
-twitter_username: dmaroulidis
-github_username:  dmaroulidis
+
+# Social
+githubUsername: dmaroulidis
+twitterUsername: dmaroulidis
+dribbbleUsername:
+codepenUsername:
 
 # Build settings
 markdown: kramdown
+
+themeColor: blue # green, blue, orange, purple, grey
+fixedNav: 'true' # true or false
+
+permalink: /:year/:month/:title
+include: [_pages]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+sass:
+  style: compressed
