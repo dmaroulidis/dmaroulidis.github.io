@@ -14,3 +14,5 @@ $ aptitude
 Then press Control + T to open the actions menu, select Play Minesweeper and press Enter.
 
 You can place flags by pressing F.
+
+Ok, that's what you need to know, go have fun!
