@@ -35,6 +35,6 @@ fixedNav: 'true' # true or false
 
 permalink: /:year/:month/:title
 include: [_pages]
-exclude: [_site, README.md]
+exclude: [_site, README.md, vendor, .bundle]
 sass:
   style: compressed
